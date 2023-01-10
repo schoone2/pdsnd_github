@@ -7,10 +7,13 @@ October 22, 2022
 US Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+Program will help users explore bikeshare data by filtering through dataset in multiple cities using csv input file with city data.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
