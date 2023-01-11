@@ -26,3 +26,6 @@ This article gave me better insight into the pandas library:
 https://sparkbyexamples.com/pandas/pandas-create-new-dataframe-by-selecting-specific-columns/#:~:text=You%20can%20create%20a%20new,added%20to%20the%20original%20ones.
 
 https://github.com/udacity/pdsnd_github
+
+### Team Members
+Richard S.
