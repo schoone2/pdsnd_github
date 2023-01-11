@@ -193,15 +193,17 @@ def trip_duration_stats(df):
 
 def display_data(df):
     
-    get_data = input("Would You Like to View 5 Rows of Trip Data? (Enter Yes or No)")
+    get_data = input("Would You Like to View More Rows of Trip Data? (Enter Yes or No)")
     start_idx = 0
     display_more = "yes"
     
+    numberOfRows = int(input("How Many Rows to View?"))
+
     if get_data.lower() == "yes":
         while (display_more == "yes"):
-            print(df.iloc[start_idx:start_idx+5])
-            start_idx += 5
-            display_more = input("Would You Like to View Another 5 Rows of Trip Data? (Enter Yes or No): ").lower()
+            print(df.iloc[start_idx:start_idx+numberOfRows])
+            start_idx += numberOfRows
+            display_more = input("Would You Like to View Another "+str(numberOfRows)+" Rows of Trip Data? (Enter Yes or No): ").lower()
 
 
 # In[9]:
